@@ -8,6 +8,9 @@
 # You'll need to edit the particulars to get these scripts to run 
 # on your system: file paths, database names, usernames, passwords
 # all particular to the live demos.
+# Tools used in this script are part of the Data Management Toolbox
+# Geodatabase Administration Toolset:
+# http://desktop.arcgis.com/en/arcmap/10.3/tools/data-management-toolbox/an-overview-of-the-geodatabase-administration-toolset.htm
 
 import arcpy
 
@@ -21,7 +24,7 @@ database = 'Demo3'
 authentication = 'DATABASE_AUTH' #type of authentication
 databaseAdmin = '<dba>'
 databaseAdminPass = '<dba_password>'
-schema = 'SDE_SCHEMA'
+schema = 'SDE_SCHEMA' #see doc, only relevant to SQL Server
 gdbAdmin = '<gdb_admin>'
 adminPass = '<gdb_admin_password>'
 tablespace = ''
@@ -52,8 +55,8 @@ try:
     # Next create users and assign them to their proper roles.
     # Generate a list of users to be added as editors and a list to be added as viewers.
     print("\t\tCreating users")
-    editors = ['matt', 'colin', 'andrew', 'gary']
-    viewers = ['heather', 'jon', 'annie', 'shawn']
+    editors = ['jack', 'jill', 'larry', 'loretta']
+    viewers = ['darryl', 'carol', 'rick', 'maggie']
     for user in editors:
         arcpy.CreateDatabaseUser_management(adminConn, 'DATABASE_USER',
                                             user, '<your_choice_of_password>', 'editors')
@@ -76,15 +79,15 @@ try:
     # Import a custom configuration keyword for the data owner to use
     # The file being imported had been exported from dbtune, modified, and now ready to import
     print("\tImport a new geodatabase configuration keyword named 'custom'")
-    arcpy.ImportGeodatabaseConfigurationKeywords_management(gdbAdminConn,  r'<path_to_keyword_file>\<keyword_file_name')
+    arcpy.ImportGeodatabaseConfigurationKeywords_management(gdbAdminConn,  r'<path_to_keyword_file>\<keyword_file_name>')
     print("****Finished tasks as the gdb admin user (sde) ****\n")
     
     # Create schema and apply permissions.
     # Create a connection as the data owner.
     print("\nCreating a connection to the geodatabase as the data owner (gdb)")
     ownerConn = arcpy.CreateDatabaseConnection_management(r'<path_to_save_connection_file>',
-                                                          'gdbDataOwner.sde', platform, instance,
-                                                          'DATABASE_AUTH', 'gdb','gdb$DCDevSummit17',
+                                                          '<file_name>.sde', platform, instance,
+                                                          '<authentication_type>', '<gdb_admin>','<gdb_admin_password>',
                                                           'SAVE_USERNAME', database)
     
     # Import the data as the gdb user and specify the custom config keyword that the gdb admin has provided
