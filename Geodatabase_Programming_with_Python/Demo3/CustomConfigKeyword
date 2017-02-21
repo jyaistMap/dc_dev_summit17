@@ -1,0 +1,496 @@
+##DATA_DICTIONARY
+B_CLUSTER_ROWID            0
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_STORAGE                  ""
+I_STORAGE                  ""
+MVTABLES_MODIFIED_INDEX    "WITH FILLFACTOR = 75"
+MVTABLES_MODIFIED_TABLE    ""
+STATE_LINEAGES_INDEX       "WITH FILLFACTOR = 75"
+STATE_LINEAGES_TABLE       ""
+STATES_INDEX               "WITH FILLFACTOR = 75"
+STATES_TABLE               ""
+VERSIONS_INDEX             "WITH FILLFACTOR = 75"
+VERSIONS_TABLE             ""
+XML_INDEX_TAGS_INDEX       "WITH FILLFACTOR = 75"
+XML_INDEX_TAGS_TABLE       ""
+END
+
+##DEFAULTS
+A_CLUSTER_RASTER           0
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_CLUSTER_XML              0
+A_INDEX_RASTER             "WITH FILLFACTOR = 75"
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_INDEX_XML                "WITH FILLFACTOR = 75"
+A_MS_SPINDEX               "GRIDS = (MEDIUM, MEDIUM, MEDIUM, MEDIUM), CELLS_PER_OBJECT = 16"
+A_OUT_OF_ROW               0
+A_PARTITION_RASTER         ""
+A_PARTITION_ROWID          ""
+A_PARTITION_SHAPE          ""
+A_PARTITION_STATEID        ""
+A_PARTITION_USER           ""
+A_PARTITION_XML            ""
+A_STORAGE                  ""
+AUX_CLUSTER_COMPOSITE      1
+AUX_INDEX_COMPOSITE        "WITH FILLFACTOR = 75"
+AUX_STORAGE                ""
+B_CLUSTER_RASTER           0
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_TO_DATE          0
+B_CLUSTER_USER             0
+B_CLUSTER_XML              0
+B_INDEX_RASTER             "WITH FILLFACTOR = 75"
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_TO_DATE            "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_INDEX_XML                "WITH FILLFACTOR = 75"
+B_MS_SPINDEX               "GRIDS = (MEDIUM, MEDIUM, MEDIUM, MEDIUM), CELLS_PER_OBJECT = 16"
+B_OUT_OF_ROW               0
+B_PARTITION_RASTER         ""
+B_PARTITION_ROWID          ""
+B_PARTITION_SHAPE          ""
+B_PARTITION_TO_DATE        ""
+B_PARTITION_USER           ""
+B_PARTITION_XML            ""
+B_STORAGE                  ""
+BLK_CLUSTER_COMPOSITE      1
+BLK_INDEX_COMPOSITE        "WITH FILLFACTOR = 75"
+BLK_OUT_OF_ROW             0
+BLK_STORAGE                ""
+BND_CLUSTER_COMPOSITE      0
+BND_CLUSTER_ID             0
+BND_INDEX_COMPOSITE        "WITH FILLFACTOR = 75"
+BND_INDEX_ID               "WITH FILLFACTOR = 75"
+BND_PARTITION_COMPOSITE    ""
+BND_PARTITION_ID           ""
+BND_STORAGE                ""
+COLLATION_NAME             ""
+CROSS_DB_QUERY_FILTER      0
+D_CLUSTER_ALL              1
+D_CLUSTER_DELETED_AT       0
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_PARTITION_DELETED_AT     ""
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+GEOM_SRID_CHECK            1
+GEOMETRY_STORAGE           "GEOMETRY"
+GEOMTAB_OUT_OF_ROW         0
+GEOMTAB_PK                 "WITH FILLFACTOR = 75"
+GEOMTAB_STORAGE            ""
+I_STORAGE                  ""
+NUM_DEFAULT_CURSORS        -1
+PERMISSION_CACHE_THRESHOLD 250
+RAS_CLUSTER_ID             1
+RAS_INDEX_ID               "WITH FILLFACTOR = 75"
+RAS_STORAGE                ""
+RASTER_STORAGE             "BINARY"
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_PARTITION_SP_FID         ""
+S_STORAGE                  ""
+UI_TEXT                    ""
+UNICODE_STRING             "TRUE"
+XML_COLUMN_STORAGE         "DB_XML"
+XML_DOC_INDEX              "WITH FILLFACTOR = 75"
+XML_DOC_OUT_OF_ROW         0
+XML_DOC_STORAGE            ""
+XML_DOC_UNCOMPRESSED_TYPE  "BINARY"
+XML_IDX_CLUSTER_DOUBLE     0
+XML_IDX_CLUSTER_ID         0
+XML_IDX_CLUSTER_PK         1
+XML_IDX_CLUSTER_STRING     0
+XML_IDX_CLUSTER_TAG        0
+XML_IDX_FULLTEXT_CAT       "SDE_DEFAULT_CAT"
+XML_IDX_FULLTEXT_LANGUAGE  ""
+XML_IDX_FULLTEXT_TIMESTAMP 1
+XML_IDX_FULLTEXT_UPDATE_METHOD "CHANGE_TRACKING BACKGROUND"
+XML_IDX_INDEX_DOUBLE       "WITH FILLFACTOR = 75"
+XML_IDX_INDEX_ID           "WITH FILLFACTOR = 75"
+XML_IDX_INDEX_PK           "WITH FILLFACTOR = 75"
+XML_IDX_INDEX_STRING       "WITH FILLFACTOR = 75"
+XML_IDX_INDEX_TAG          "WITH FILLFACTOR = 75"
+XML_IDX_OUT_OF_ROW         0
+XML_IDX_STORAGE            ""
+END
+
+##GEOGRAPHY
+GEOMETRY_STORAGE           "GEOGRAPHY"
+UI_TEXT                    ""
+END
+
+##GEOMETRY
+GEOMETRY_STORAGE           "GEOMETRY"
+UI_TEXT                    ""
+END
+
+##CUSTOM
+GEOMETRY_STORAGE           "GEOMETRY"
+UI_TEXT                    ""
+END
+
+##IMS_GAZETTEER
+XML_COLUMN_STORAGE         "SDE_XML"
+END
+
+##LOGFILE_DEFAULTS
+LD_INDEX_ALL               "WITH FILLFACTOR = 75"
+LD_STORAGE                 ""
+LF_CLUSTER_ID              0
+LF_CLUSTER_NAME            0
+LF_INDEX_ID                "WITH FILLFACTOR = 75"
+LF_INDEX_NAME              "WITH FILLFACTOR = 75"
+LF_STORAGE                 ""
+SESSION_INDEX              "WITH FILLFACTOR = 75"
+SESSION_STORAGE            ""
+SESSION_TEMP_TABLE         1
+END
+
+##NETWORK_DEFAULTS
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+COMMENT                    "The base system initialization parameters for NETWORK_DEFAULTS"
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_STORAGE                  ""
+UI_NETWORK_TEXT            "The network default configuration"
+END
+
+##NETWORK_DEFAULTS::DESC
+A_CLUSTER_ROWID            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+END
+
+##NETWORK_DEFAULTS::NETWORK
+A_CLUSTER_ROWID            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+END
+
+##NETWORK_GEOGRAPHY
+GEOMETRY_STORAGE           "GEOGRAPHY"
+UI_NETWORK_TEXT            "User Interface description for SQL Server GEOGRAPHY"
+END
+
+##NETWORK_GEOGRAPHY::DESC
+GEOMETRY_STORAGE           "GEOGRAPHY"
+END
+
+##NETWORK_GEOGRAPHY::NETWORK
+GEOMETRY_STORAGE           "GEOGRAPHY"
+END
+
+##NETWORK_GEOMETRY
+GEOMETRY_STORAGE           "GEOMETRY"
+UI_NETWORK_TEXT            "User Interface description for SQL Server GEOMETRY"
+END
+
+##NETWORK_GEOMETRY::DESC
+GEOMETRY_STORAGE           "GEOMETRY"
+END
+
+##NETWORK_GEOMETRY::NETWORK
+GEOMETRY_STORAGE           "GEOMETRY"
+END
+
+##NETWORK_SDEBINARY
+GEOMETRY_STORAGE           "SDEBINARY"
+UI_NETWORK_TEXT            "User Interface description for SQL Server SDEBINARY"
+END
+
+##NETWORK_SDEBINARY::DESC
+GEOMETRY_STORAGE           "SDEBINARY"
+END
+
+##NETWORK_SDEBINARY::NETWORK
+GEOMETRY_STORAGE           "SDEBINARY"
+END
+
+##SDEBINARY
+GEOMETRY_STORAGE           "SDEBINARY"
+UI_TEXT                    ""
+END
+
+##TERRAIN_DEFAULTS
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_STORAGE                  ""
+UI_TERRAIN_TEXT            "The terrains default configuration"
+END
+
+##TERRAIN_DEFAULTS::EMBEDDED
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_STORAGE                  ""
+END
+
+##TERRAIN_GEOGRAPHY
+GEOMETRY_STORAGE           "GEOGRAPHY"
+UI_TERRAIN_TEXT            "User Interface description for SQL Server GEOGRAPHY"
+END
+
+##TERRAIN_GEOGRAPHY::EMBEDDED
+GEOMETRY_STORAGE           "GEOGRAPHY"
+END
+
+##TERRAIN_GEOMETRY
+GEOMETRY_STORAGE           "GEOMETRY"
+UI_TERRAIN_TEXT            "User Interface description for SQL Server GEOMETRY"
+END
+
+##TERRAIN_GEOMETRY::EMBEDDED
+GEOMETRY_STORAGE           "GEOMETRY"
+END
+
+##TERRAIN_SDEBINARY
+GEOMETRY_STORAGE           "SDEBINARY"
+UI_TERRAIN_TEXT            "User Interface description for SQL Server SDEBINARY"
+END
+
+##TERRAIN_SDEBINARY::EMBEDDED
+GEOMETRY_STORAGE           "SDEBINARY"
+END
+
+##TOPOLOGY_DEFAULTS
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_STORAGE                  ""
+UI_TOPOLOGY_TEXT           "The topology default configuration"
+END
+
+##TOPOLOGY_DEFAULTS::DIRTYAREAS
+A_CLUSTER_ROWID            0
+A_CLUSTER_SHAPE            1
+A_CLUSTER_STATEID          0
+A_CLUSTER_USER             0
+A_INDEX_ROWID              "WITH FILLFACTOR = 75"
+A_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+A_INDEX_STATEID            "WITH FILLFACTOR = 75"
+A_INDEX_USER               "WITH FILLFACTOR = 75"
+A_OUT_OF_ROW               0
+A_STORAGE                  ""
+B_CLUSTER_ROWID            0
+B_CLUSTER_SHAPE            1
+B_CLUSTER_USER             0
+B_INDEX_ROWID              "WITH FILLFACTOR = 75"
+B_INDEX_SHAPE              "WITH FILLFACTOR = 75"
+B_INDEX_USER               "WITH FILLFACTOR = 75"
+B_OUT_OF_ROW               0
+B_STORAGE                  ""
+D_CLUSTER_ALL              0
+D_CLUSTER_DELETED_AT       1
+D_INDEX_ALL                "WITH FILLFACTOR = 75"
+D_INDEX_DELETED_AT         "WITH FILLFACTOR = 75"
+D_STORAGE                  ""
+F_CLUSTER_FID              1
+F_INDEX_AREA               "WITH FILLFACTOR = 75"
+F_INDEX_FID                "WITH FILLFACTOR = 75"
+F_INDEX_LEN                "WITH FILLFACTOR = 75"
+F_OUT_OF_ROW               0
+F_STORAGE                  ""
+S_CLUSTER_ALL              1
+S_CLUSTER_SP_FID           0
+S_INDEX_ALL                "WITH FILLFACTOR = 75"
+S_INDEX_SP_FID             "WITH FILLFACTOR = 75"
+S_STORAGE                  ""
+END
+
+##TOPOLOGY_GEOGRAPHY
+GEOMETRY_STORAGE           "GEOGRAPHY"
+UI_TOPOLOGY_TEXT           "User Interface description for SQL Server GEOGRAPHY"
+END
+
+##TOPOLOGY_GEOGRAPHY::DIRTYAREAS
+GEOMETRY_STORAGE           "GEOGRAPHY"
+END
+
+##TOPOLOGY_GEOMETRY
+GEOMETRY_STORAGE           "GEOMETRY"
+UI_TOPOLOGY_TEXT           "User Interface description for SQL Server GEOMETRY"
+END
+
+##TOPOLOGY_GEOMETRY::DIRTYAREAS
+GEOMETRY_STORAGE           "GEOMETRY"
+END
+
+##TOPOLOGY_SDEBINARY
+GEOMETRY_STORAGE           "SDEBINARY"
+UI_TOPOLOGY_TEXT           "User Interface description for SQL Server SDEBINARY"
+END
+
+##TOPOLOGY_SDEBINARY::DIRTYAREAS
+GEOMETRY_STORAGE           "SDEBINARY"
+END
+

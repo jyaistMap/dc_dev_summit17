@@ -1,0 +1,14 @@
+[2/15/2017 7:45:17 AM] Starting reconcile.
+[2/15/2017 7:45:17 AM] Reconciling version MATT.matt_EditVersion with sde.DEFAULT.
+[2/15/2017 7:45:17 AM] Posting version MATT.matt_EditVersion to sde.DEFAULT.
+[2/15/2017 7:45:17 AM] 1 of 4 versions finished.
+[2/15/2017 7:45:17 AM] Reconciling version COLIN.colin_EditVersion with sde.DEFAULT.
+[2/15/2017 7:45:17 AM] Posting version COLIN.colin_EditVersion to sde.DEFAULT.
+[2/15/2017 7:45:17 AM] 2 of 4 versions finished.
+[2/15/2017 7:45:17 AM] Reconciling version ANDREW.andrew_EditVersion with sde.DEFAULT.
+[2/15/2017 7:45:17 AM] Posting version ANDREW.andrew_EditVersion to sde.DEFAULT.
+[2/15/2017 7:45:17 AM] 3 of 4 versions finished.
+[2/15/2017 7:45:17 AM] Reconciling version GARY.gary_EditVersion with sde.DEFAULT.
+[2/15/2017 7:45:18 AM] Posting version GARY.gary_EditVersion to sde.DEFAULT.
+[2/15/2017 7:45:18 AM] 4 of 4 versions finished.
+[2/15/2017 7:45:18 AM] Finished reconcile.
