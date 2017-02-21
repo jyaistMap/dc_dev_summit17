@@ -5,11 +5,11 @@ import arcpy
 import os
 
 # set the working environment
-arcpy.env.workspace = r"C:\Data\ArcGISPro_QuickStart\Introducing_ArcGIS_Pro"
+arcpy.env.workspace = r"<path_to_directory_with_project>"
 work_path = arcpy.env.workspace
 
 # instantiate the Project
-aprx = arcpy.mp.ArcGISProject(work_path + os.sep + "Introducing_ArcGIS_Pro.aprx")
+aprx = arcpy.mp.ArcGISProject(work_path + os.sep + "<project_name>.aprx")
 
 # use os.path and string functions to create variable for project name
 base = os.path.basename(aprx.filePath)
